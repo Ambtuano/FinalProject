@@ -1,0 +1,47 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root {
+     -fx-background-color: linear-gradient(#ffffff,#e2e2e2);
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-font-family: "Serif";
+    -fx-text-fill: #818181;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+.label:hover {
+	-fx-font-size: 16px;
+    -fx-font-family: "Serif";
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+.text-field {
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+	-fx-font-size: 16px;
+    -fx-font-family: "Serif";
+    -fx-text-fill: #818181;
+    -fx-background-color: #f1ffff;
+}
+
+.text-field:focused{
+	-fx-font-size: 16px;
+    -fx-font-family: "Serif";
+    -fx-text-fill: #333333;
+    -fx-background-color: #ffffff;
+}
+
+
+.button {
+    -fx-text-fill: #818181;
+    -fx-font-family: "Serif";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#f1ffff,#e1f7f7);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#818181,#777777);
+    -fx-text-fill: #ffffff;
+}
